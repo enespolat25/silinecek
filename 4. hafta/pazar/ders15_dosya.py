@@ -1,0 +1,5 @@
+f=open("benimdosyam.txt","r")
+#print(f.read())
+#print(f.read(10))
+print(f.readline())
+print(f.readline())
