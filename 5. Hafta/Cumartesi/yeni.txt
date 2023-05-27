@@ -1,0 +1,9 @@
+enes
+print("enes )
+türkiye
+2023
+1985
+erzurum
+ktu
+müdür
+telekom
