@@ -18,6 +18,8 @@ public class IkiliController : MonoBehaviour
         if (Input.GetKey("w"))
         {
             animator.SetBool("isRunning", true);
+            this.transform.Translate(new Vector3(0f, 0f, 1f) * Time.deltaTime, this.transform.parent);
+
         }
         else
         {
@@ -28,6 +30,7 @@ public class IkiliController : MonoBehaviour
         if (Input.GetKey("s"))
         {
             animator.SetBool("isCrawling", true);
+            this.transform.Translate(new Vector3(0f, 0f, 2f) * Time.deltaTime, this.transform.parent);
         }
         else
         {
